@@ -1,18 +1,6 @@
 {
   "groups": [
     {
-      "id": 1,
-      "name": "Mbessi Group",
-      "description": "lorem ipsum test",
-      "manager": "John",
-      "ass_manager": "Matt",
-      "members": [
-        "John",
-        "Peter",
-        "Matt"
-      ]
-    },
-    {
       "id": 2,
       "name": "Mbuh Group",
       "description": "lorem ipsum test 2",
@@ -36,14 +24,6 @@
         "Peter",
         "Matt"
       ]
-    },
-    {
-      "name": "Lespa",
-      "description": "tester group",
-      "manager": "John",
-      "ass_manager": "",
-      "members": [],
-      "id": 4
     },
     {
       "name": "Second Group",

@@ -1,4 +1,5 @@
 const id = new URLSearchParams(window.location.search).get('id');
+const delBtn = document.querySelector('.delete');
 
 const renderDetails = async () => {
     console.log(id);
@@ -25,4 +26,10 @@ const renderDetails = async () => {
     document.getElementById('details').innerHTML = template;
 }
 
+delBtn.addEventListener('click', async (e) => {
+    fetch('http://localhost:3000/groups/' + id, {
+        method: 'DELETE'
+    })
+    window.location.replace('/index.html')
+})
 window.addEventListener('DOMContentLoaded', () => renderDetails());
