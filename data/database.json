@@ -1,0 +1,76 @@
+{
+  "groups": [
+    {
+      "id": 1,
+      "name": "Mbessi Group",
+      "description": "lorem ipsum test",
+      "manager": "John",
+      "ass_manager": "Matt",
+      "members": [
+        "John",
+        "Peter",
+        "Matt"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mbuh Group",
+      "description": "lorem ipsum test 2",
+      "manager": "Mary",
+      "ass_manager": "Matt",
+      "members": [
+        "Mary",
+        "Peter",
+        "Matt",
+        "Jerry"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Lespa Group",
+      "description": "lorem ipsum test",
+      "manager": "John",
+      "ass_manager": "Matt",
+      "members": [
+        "John",
+        "Peter",
+        "Matt"
+      ]
+    },
+    {
+      "name": "Lespa",
+      "description": "tester group",
+      "manager": "John",
+      "ass_manager": "",
+      "members": [],
+      "id": 4
+    },
+    {
+      "name": "Second Group",
+      "description": "This group was created and tested by lespa",
+      "manager": "John",
+      "ass_manager": "",
+      "members": [
+        "John"
+      ],
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "john",
+      "email": "john@user"
+    },
+    {
+      "id": 2,
+      "name": "Mary",
+      "email": "mary@user"
+    },
+    {
+      "id": 1,
+      "name": "Peter",
+      "email": "peter@user"
+    }
+  ]
+}
