@@ -5,8 +5,11 @@
 * GET request
     * Getting all groups
     * Getting particular groups
+    * Searching for groups
     ___
 * POST request
     * Adding new groups
+    ___
+* Delete request
     * Deleting groups
 -----

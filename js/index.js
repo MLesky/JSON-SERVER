@@ -1,6 +1,12 @@
 // javascript for index.html
-const renderPosts = async () => {
-    let url = "http://localhost:3000/groups?"
+const searchForm = document.querySelector('.search');
+
+const renderPosts = async (term) => {
+    let url = "http://localhost:3000/groups?_sort=id&_order=desc";
+    console.log(term)
+    if (term) {
+        url += `&q=${term}`;
+    }
     const res = await fetch(url);
     const groups = await res.json();
     
@@ -17,5 +23,10 @@ const renderPosts = async () => {
     })
     document.getElementById('groups').innerHTML = template;
 }
+
+searchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    renderPosts(searchForm.term.value.trim());
+})
 
 window.addEventListener('DOMContentLoaded', () => renderPosts());
